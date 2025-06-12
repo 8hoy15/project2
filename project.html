@@ -6,26 +6,7 @@
         <title>Language Resource Sheet</title>
     </head>
 
-<script>
-window.addEventListener('mouseover', initLandbot, { once: true });
-window.addEventListener('touchstart', initLandbot, { once: true });
-var myLandbot;
-function initLandbot() {
-  if (!myLandbot) {
-    var s = document.createElement('script');
-    s.type = "module"
-    s.async = true;
-    s.addEventListener('load', function() {
-      myLandbot = new Landbot.Popup({
-        configUrl: 'https://storage.googleapis.com/landbot.site/v3/H-2992010-UF1GAEGFWJGQMOAO/index.json',
-      });
-    });
-    s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.mjs';
-    var x = document.getElementsByTagName('script')[0];
-    x.parentNode.insertBefore(s, x);
-  }
-}
-</script>
+
 <style>
     .banner {
       background-color: #616161; /* Change color */
@@ -73,6 +54,28 @@ function initLandbot() {
 
 
     <body>
+
+<script>
+window.addEventListener('mouseover', initLandbot, { once: true });
+window.addEventListener('touchstart', initLandbot, { once: true });
+var myLandbot;
+function initLandbot() {
+  if (!myLandbot) {
+    var s = document.createElement('script');
+    s.type = "module"
+    s.async = true;
+    s.addEventListener('load', function() {
+      myLandbot = new Landbot.Popup({
+        configUrl: 'https://storage.googleapis.com/landbot.site/v3/H-2992010-UF1GAEGFWJGQMOAO/index.json',
+      });
+    });
+    s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.mjs';
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+  }
+}
+</script>
+	    
         <div class="banner"><h1><center>Language Resource Sheet</center></h1></div>
 		<hr class="rounded">
 		
