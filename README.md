@@ -23,3 +23,16 @@ Wohin willst du gehen
 Tankstelle
 Hotel
 Krankenhaus
+
+Korean
+어디로 가고 싶니?
+주유소
+호텔
+병원
+
+Portuguese
+onde você quer ir
+posto de gasolina
+hotel
+hospital
+
