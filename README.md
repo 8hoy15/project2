@@ -36,3 +36,20 @@ posto de gasolina
 hotel
 hospital
 
+Russian
+куда ты хочешь пойти
+заправочная станция
+отель
+больница
+
+Spanish
+¿A dónde quieres ir?
+gasolinera
+hotel
+hospital
+
+Vietnamese
+bạn muốn đi đâu
+trạm xăng
+khách sạn
+bệnh viện
