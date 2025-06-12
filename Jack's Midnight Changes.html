@@ -31,7 +31,7 @@
 		border: 2px solid gray;
 		text-align: center;
 	}
-
+	
 	body {
 		background-image: url(https://cdn11.bigcommerce.com/s-5luen2shhj/images/stencil/original/products/4295/27361/wo-kcm-3-world-neutral-soft-tan-illustrated-map-mural__08266.1739231285.jpg?c=2&imbypass=on&imbypass=on);
 		background-size: cover;
@@ -55,29 +55,28 @@
 
     <body>
 
-<script>
-window.addEventListener('mouseover', initLandbot, { once: true });
-window.addEventListener('touchstart', initLandbot, { once: true });
-var myLandbot;
-function initLandbot() {
-  if (!myLandbot) {
-    var s = document.createElement('script');
-    s.type = "module"
-    s.async = true;
-    s.addEventListener('load', function() {
-      myLandbot = new Landbot.Popup({
-        configUrl: 'https://storage.googleapis.com/landbot.site/v3/H-2992030-YK9T0AAPP6DO6KZH/index.json',
-      });
-    });
-    s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.mjs';
-    var x = document.getElementsByTagName('script')[0];
-    x.parentNode.insertBefore(s, x);
-  }
-}
-</script>
+	<script>
+	window.addEventListener('mouseover', initLandbot, { once: true });
+	window.addEventListener('touchstart', initLandbot, { once: true });
+	var myLandbot;
+	function initLandbot() {
+	  if (!myLandbot) {
+	    var s = document.createElement('script');
+	    s.type = "module"
+	    s.async = true;
+	    s.addEventListener('load', function() {
+	      myLandbot = new Landbot.Popup({
+	        configUrl: 'https://storage.googleapis.com/landbot.site/v3/H-2992030-YK9T0AAPP6DO6KZH/index.json',
+	      });
+	    });
+	    s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.mjs';
+	    var x = document.getElementsByTagName('script')[0];
+	    x.parentNode.insertBefore(s, x);
+	  }
+	}
+	</script>
 	    
         <div class="banner"><h1><center>Language Resource Sheet</center></h1></div>
-		<hr class="rounded">
 		
         <table>
 		<tr>
