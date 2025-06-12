@@ -4,6 +4,7 @@
     <head>
         <meta charset = "UTF-8">
         <title>Language Resource Sheet</title>
+		<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     </head>
 
 
@@ -18,9 +19,24 @@
 	  border-radius: 10px;
     }
 
+	.table-box {
+            background-color: #616161; /* Light gray box */
+            border-radius: 20px;       /* Rounded corners */
+            padding: 20px;             /* Space inside the box */
+            width: fit-content;        /* Box fits table size */
+            margin: 20px auto;         /* Center it horizontally */
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Optional shadow */
+        }
+	
+		h1 {
+    		font-family: 'Merriweather', sans-serif;
+  		}
+
+
 	th, td{
 		border: 2px solid gray;
 		text-align: center;
+    	font-family: 'Merriweather', sans-serif;
 	}
 	
 	table {
@@ -79,6 +95,7 @@ function initLandbot() {
 
         <div class="banner"><h1><center>Language Resource Sheet</center></h1></div>
 		<br><br><br>
+		<div class="table-box">
         <table>
 		<tr>
 			<th scope="col"></th>
@@ -159,6 +176,7 @@ function initLandbot() {
 			<th scope="row"><a href="https://resources.collins.co.uk/Dictionary/CD%20Resources/Collins_Vietnamese_3000_words_and_phrases.pdf" target="_blank" rel="noopener noreferrer">Vietnamese/English Reference Guide</a></th>
 		</tr>
 	</table>
+	</div>
     </body>
 
 </html>
