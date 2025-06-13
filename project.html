@@ -60,15 +60,27 @@
 		text-align: center;
 	}
 
+	html, body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+
 	body {
 		background-image: url(https://cdn11.bigcommerce.com/s-5luen2shhj/images/stencil/original/products/4295/27361/wo-kcm-3-world-neutral-soft-tan-illustrated-map-mural__08266.1739231285.jpg?c=2&imbypass=on&imbypass=on);
-		background-size: auto;
+		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
 		font-size: 1rem; /* instead of 16px */
   		padding: 5vw;    /* responsive padding */
 		}
 		
+		@media (max-width: 768px) {
+      body {
+        background-size: contain; /* or try auto if you prefer */
+      }
+    }
+
 	a:link {
 		color: #f0b324; /*unvisted link*/
 	}
