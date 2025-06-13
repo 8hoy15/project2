@@ -2,12 +2,10 @@
 <html lang="en">
  <!--English, Spanish, Chinese, German, Vietnamese, Arabic, French, Korean, Protugeues, Russian-->   
     <head>
-        <meta charset = "UTF-8">
+        <meta charset = "UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Language Resource Sheet</title>
-		<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet" href="style.css">
     </head>
-
-
 <style>
     .banner {
       background-color: #616161; /* Change color */
@@ -41,6 +39,17 @@
     	font-family: 'Merriweather', sans-serif;
 	}
 	
+	.container {
+  		display: flex;
+  		flex-wrap: wrap;
+  		justify-content: space-between;
+	}
+
+	img {
+  		max-width: 100%;
+  		height: auto;
+	}
+
 	table {
 		margin-left: auto;
 		margin-right: auto;
@@ -56,6 +65,8 @@
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;
+		font-size: 1rem; /* instead of 16px */
+  		padding: 5vw;    /* responsive padding */
 		}
 		
 	a:link {
@@ -70,7 +81,6 @@
 		color: #d8a52e; /* When mouse hovers over */
 		}
 </style>
-
 
     <body>
 
