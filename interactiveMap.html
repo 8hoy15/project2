@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Map</title>
+    <title>Interactive SVG Background</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <style>
@@ -272,14 +272,14 @@
                     // Determine content based on the clicked continent's ID
                     if (clickedId === 'g6') {
                         title = "North & South America";
-                        content = "These continents are home to diverse landscapes, rich histories, and vibrant cultures. From the icy tundras of Canada to the Amazon rainforest, they offer incredible natural beauty and cultural experiences.";
+                        content = "In North America English is the most predominat language with 375-400 million speakers mostly in the US and Canada, Spanish is the second most spoken language with 230-250 million speakers most living in Mexico and the US, and with 18-20 million speakers mostly located in Canda French is the third most common language in North America. \nIn South America the most common spoken languages are Spanish and Portuguese with both languages nearly tied for speakers at about 220 million. Third place goes to Quechua which is spoken by 8-10 milion people Andean regions of Peru, Bolivia, Ecuador, and parts of Colombia, Argentina, and Chile.";
                     } else if (clickedId === 'path3') {
                         // Updated title and content for Asia, Europe, and Africa
                         title = "Asia, Europe, & Africa";
-                        content = "Asia, Europe, and Africa comprise a vast and diverse landmass, connected by historical ties and geographical proximity. From the ancient pyramids to the bustling markets of Asia and the cultural richness of Europe, these continents offer a tapestry of human history, natural wonders, and vibrant contemporary life.";
+                        content = "Mandarin Chinese has more than 1.1 billion speakeres in Asia across China and Taiwan making it the most common language followed by Hindi with 650 million speakers in Nepal and India. Arabic is the third most common language in Asia with 400 million speakers mostly across West Asia. \nArabic is the most common language in Africa mostly used in North Africa with 250 million speakers. Swahili has about 150 million speakers centered in East Africa and Hausa has around 80 million speakers and is mostly in Nigeria, Niger, and some neighboring areas. \n Russian has 250 million speakers followed by German being the second largest language in Europe with 100 million speakers across Germany, Austria, Switzerland, Belgium, and Luxembourg. French is the third most common language in Europe with 85 millino speakers. \nEnglish is widely spoken across Europe with 370 million spekaers but only 70 million are native leaving it ranked slightly lower than French.";
                     } else if (clickedId === 'path6') {
                         title = "Australia";
-                        content = "Known for its unique wildlife, stunning coastlines, and expansive outback, Australia is a continent and a country. It features iconic landmarks like the Sydney Opera House and the Great Barrier Reef.";
+                        content = "English is the dominant language of Australia, being used in government, media, education, and daily life. Second and third place go to Mandarin which has about 600,000 speakers and Arabic with around 370,000";
                     }
 
                     showModal(title, content);
